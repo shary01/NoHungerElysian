@@ -1,0 +1,15 @@
+name: NoHungerElysian
+author: Shary01
+version: 1.0.0
+api: [3.0.0]
+website: "https://github.com/shary01/NoHungerElysian"
+main: shary01\NoHungerElysian\Main
+commands:
+   hunger:
+      description: Set the no hunger zone positions
+      default: false
+
+permissions:
+   hunger.cmd:
+      description: Allows access to hunger commands
+      default: op
